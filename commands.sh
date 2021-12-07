@@ -46,4 +46,8 @@ for c in {input bam files}
 
       samtools index {the sorted bam file}  {the bai index file, that goes int he same directory as the bam file itself}
 
+#-------------------------------------------
+#using etandem
+
+     etandem -sequence sample_amplikon_region.fasta -minrepeat 3 -maxrepeat 10 -outfile output.etandem
         
